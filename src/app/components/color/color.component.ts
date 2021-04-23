@@ -48,7 +48,6 @@ export class ColorComponent implements OnInit {
   }
 
   setCurrentColor(color: Color){
-    console.log(color);
     this.currentColor = color;
   }
 
